@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import type { Product } from '../data/products';
-import { ugx } from '../lib/format';
+import { orderLink } from '../lib/whatsapp';
 
 export default function ProductCard({ p }: { p: Product }) {
   const { add, getQty } = useCart();
@@ -25,7 +25,14 @@ export default function ProductCard({ p }: { p: Product }) {
         </h3>
         <p className="muted small">{p.summary}</p>
         <div className="card-foot">
-          <strong className={p.price === null ? 'quote' : ''}>{ugx(p.price)}</strong>
+          <a
+            className="link small"
+            href={orderLink([{ product: p, qty: 1 }])}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ask for price on WhatsApp
+          </a>
           <button
             className="btn btn-sm"
             onClick={() => add(p.id)}

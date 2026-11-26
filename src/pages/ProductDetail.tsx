@@ -4,7 +4,6 @@ import ProductCard from '../components/ProductCard';
 import QtyStepper from '../components/QtyStepper';
 import { useCart } from '../context/CartContext';
 import { useSeo } from '../hooks/useSeo';
-import { ugx } from '../lib/format';
 import { orderLink } from '../lib/whatsapp';
 import { bySlug, similar } from '../lib/helpers';
 
@@ -52,26 +51,6 @@ export default function ProductDetail() {
       category: p.category,
       description: p.description,
       image: p.images.length ? p.images : undefined,
-      offers: p.price
-        ? {
-            '@type': 'Offer',
-            priceCurrency: 'UGX',
-            price: p.price,
-            ...(p.oldPrice
-              ? {
-                  priceSpecification: {
-                    '@type': 'PriceSpecification',
-                    priceCurrency: 'UGX',
-                    price: p.oldPrice,
-                  },
-                }
-              : {}),
-            availability:
-              p.stock?.status === 'out_of_stock'
-                ? 'https://schema.org/OutOfStock'
-                : 'https://schema.org/InStock',
-          }
-        : undefined,
     },
   });
 
@@ -84,17 +63,11 @@ export default function ProductDetail() {
     );
   }
 
-  const hasPrice = p.price !== null;
   const hasImages = p.images.length > 0;
   const count = p.images.length;
 
   const highlights = p.specs.slice(0, 4);
   const related = similar(p);
-
-  const discount =
-    p.price !== null && p.oldPrice && p.oldPrice > p.price
-      ? Math.round(((p.oldPrice - p.price) / p.oldPrice) * 100)
-      : 0;
 
   const stockStatus = p.stock?.status ?? 'in_stock';
 
@@ -144,7 +117,7 @@ export default function ProductDetail() {
     }
   };
 
-  const canPurchase = hasPrice && stockStatus !== 'out_of_stock';
+  const canPurchase = stockStatus !== 'out_of_stock';
 
   return (
     <div className="wrap pad">
@@ -254,29 +227,9 @@ export default function ProductDetail() {
             </p>
           )}
 
-          {/* Price */}
           <div className="pd-priceline">
-            {hasPrice ? (
-              <div>
-                <p className="price">{ugx(p.price!)}</p>
-
-                {p.oldPrice && p.oldPrice > p.price! && (
-                  <div className="pd-price-meta">
-                    <del className="muted">{ugx(p.oldPrice)}</del>
-
-                    {discount > 0 && (
-                      <span className="pd-discount">
-                        Save {ugx(p.oldPrice - p.price!)} ({discount}%)
-                      </span>
-                    )}
-                  </div>
-                )}
-              </div>
-            ) : (
-              <p className="price quote">Price on request</p>
-            )}
-
-            <p className="small muted">Prices in UGX. Confirmed on order.</p>
+            <p className="price quote">Price on request</p>
+            <p className="small muted">Message us or use WhatsApp for current pricing.</p>
           </div>
 
           {/* Highlights */}
@@ -301,19 +254,7 @@ export default function ProductDetail() {
 
         {/* Buy box */}
         <aside className="pd-buy" aria-label="Purchase options">
-          {hasPrice ? (
-            <>
-              <p className="price">{ugx(p.price!)}</p>
-
-              {p.oldPrice && p.oldPrice > p.price! && (
-                <p className="small muted">
-                  Was <del>{ugx(p.oldPrice)}</del>
-                </p>
-              )}
-            </>
-          ) : (
-            <p className="price quote">Price on request</p>
-          )}
+          <p className="price quote">Price on request</p>
 
           <p className="pd-stock">
             <span
@@ -338,12 +279,6 @@ export default function ProductDetail() {
             </div>
           )}
 
-          {hasPrice && qty > 1 && (
-            <p className="pd-total small">
-              Total: <strong>{ugx((p.price ?? 0) * qty)}</strong>
-            </p>
-          )}
-
           {canPurchase && (
             <button
               type="button"
@@ -363,12 +298,12 @@ export default function ProductDetail() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {hasPrice
-              ? stockStatus === 'out_of_stock'
-                ? 'Check availability'
-                : 'Order on WhatsApp'
-              : 'Request a quote'}
+            {stockStatus === 'out_of_stock' ? 'Check availability' : 'Ask for price on WhatsApp'}
           </a>
+
+          <Link className="link small" to="/contact">
+            Send us a message
+          </Link>
 
           <p role="status" className="small ok">
             {added && (
@@ -554,13 +489,6 @@ export default function ProductDetail() {
               {p.paymentOptions.map((option) => (
                 <article key={option.name} className="pd-payment">
                   <h4>{option.name}</h4>
-
-                  {option.amountPerPayment && (
-                    <p className="price">
-                      {ugx(option.amountPerPayment)}
-                      {option.payments ? ' each' : ''}
-                    </p>
-                  )}
 
                   <p>{option.description}</p>
                 </article>

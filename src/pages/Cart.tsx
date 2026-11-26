@@ -2,11 +2,9 @@ import { Link } from 'react-router-dom';
 import QtyStepper from '../components/QtyStepper';
 import { useCart } from '../context/CartContext';
 import { useSeo } from '../hooks/useSeo';
-import { ugx } from '../lib/format';
 import { orderLink } from '../lib/whatsapp';
 export default function Cart() {
-  const { lines, total, count, setQty, remove, clear } = useCart();
-  const hasPricedItems = lines.some(({ product }) => product.price !== null);
+  const { lines, count, setQty, remove, clear } = useCart();
   useSeo({
     title: 'Your cart',
     description: 'Review your solar products and send your order on WhatsApp.',
@@ -33,9 +31,7 @@ export default function Cart() {
               <Link to={`/products/${p.slug}`}>
                 <strong>{p.name}</strong>
               </Link>
-              <p className="muted small">
-                {p.brand} · {ugx(p.price)}
-              </p>
+              <p className="muted small">{p.brand} · Price on request</p>
             </div>
             <QtyStepper value={qty} onChange={(n) => setQty(p.id, n)} label={p.name} />
             <button className="link" onClick={() => remove(p.id)} aria-label={`Remove ${p.name}`}>
@@ -45,13 +41,9 @@ export default function Cart() {
         ))}
       </ul>
       <div className="sum">
-        <p>
-          {hasPricedItems ? 'Priced items subtotal' : 'Price'}{' '}
-          <strong>{hasPricedItems ? ugx(total) : 'On request'}</strong>
-        </p>
+        <p>Ask us for current pricing on WhatsApp.</p>
         <p className="muted small">
-          Quote-only items are confirmed on WhatsApp. Delivery and installation are quoted
-          separately.
+          We will confirm product prices, delivery and installation before you pay.
         </p>
         <div className="row">
           <a

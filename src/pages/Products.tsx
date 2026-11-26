@@ -37,7 +37,6 @@ export default function Products() {
   const cat = sp.get('cat') ?? '';
   const brand = sp.get('brand') ?? '';
   const sort = sp.get('sort') ?? 'featured';
-  const max = Number(sp.get('max') ?? 0);
 
   useSeo({
     title: cat || 'All solar products',
@@ -73,7 +72,7 @@ export default function Products() {
     });
   };
 
-  const activeFilterCount = [cat, brand, max].filter(Boolean).length;
+  const activeFilterCount = [cat, brand].filter(Boolean).length;
 
   const hasFilters = activeFilterCount > 0;
 
@@ -83,25 +82,11 @@ export default function Products() {
 
       const matchesBrand = !brand || p.brand === brand;
 
-      const matchesPrice = !max || (p.price !== null && p.price <= max);
-
-      return matchesCategory && matchesBrand && matchesPrice;
+      return matchesCategory && matchesBrand;
     });
 
     return [...filtered].sort((a, b) => {
       switch (sort) {
-        case 'low':
-          if (a.price === null) return 1;
-          if (b.price === null) return -1;
-
-          return a.price - b.price;
-
-        case 'high':
-          if (a.price === null) return 1;
-          if (b.price === null) return -1;
-
-          return b.price - a.price;
-
         case 'name':
           return a.name.localeCompare(b.name);
 
@@ -113,7 +98,7 @@ export default function Products() {
           return Number(!!b.featured) - Number(!!a.featured);
       }
     });
-  }, [q, cat, brand, max, sort]);
+  }, [q, cat, brand, sort]);
 
   return (
     <div className="products-page">
@@ -171,10 +156,6 @@ export default function Products() {
               >
                 <option value="featured">Featured</option>
 
-                <option value="low">Price: low to high</option>
-
-                <option value="high">Price: high to low</option>
-
                 <option value="name">Name: A–Z</option>
               </select>
             </label>
@@ -196,13 +177,6 @@ export default function Products() {
             {brand && (
               <button type="button" className="filter-chip" onClick={() => upd('brand', '')}>
                 {brand}
-                <CloseIcon />
-              </button>
-            )}
-
-            {max > 0 && (
-              <button type="button" className="filter-chip" onClick={() => upd('max', '')}>
-                Up to UGX {max.toLocaleString('en-UG')}
                 <CloseIcon />
               </button>
             )}
@@ -263,19 +237,6 @@ export default function Products() {
                   {brandsOf().map((brandName) => (
                     <option key={brandName} value={brandName}>
                       {brandName}
-                    </option>
-                  ))}
-                </select>
-              </label>
-
-              <label>
-                Maximum price
-                <select value={max || ''} onChange={(e) => upd('max', e.target.value)}>
-                  <option value="">Any price</option>
-
-                  {[500000, 1000000, 5000000, 15000000].map((amount) => (
-                    <option key={amount} value={amount}>
-                      Up to UGX {amount.toLocaleString('en-UG')}
                     </option>
                   ))}
                 </select>

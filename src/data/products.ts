@@ -51,8 +51,8 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon 56W 5,800-Lumen LED Solar Street Light, Solar King Light 2.0',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 690000,
-    oldPrice: 770000,
+    price: null,
+    oldPrice: null,
     sku: '45515',
     stock: {
       status: 'in_stock',
@@ -130,14 +130,12 @@ export const PRODUCTS: Product[] = [
         description:
           'Apply today. Get approved. Pay consistently. Receive after 4 instalments. Clear balance slowly.',
         payments: 6,
-        amountPerPayment: 115000,
       },
       {
         name: 'DC Power UG Smart Instalments – 10 payments',
         description:
           'Apply today. Get approved. Pay consistently. Receive after 7 instalments. Clear balance slowly.',
         payments: 10,
-        amountPerPayment: 69000,
       },
       {
         name: 'DC Power UG Save',
@@ -157,8 +155,8 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon WaWa Light 6.0 Solar Flood Light BCT-WW6.0, 5,600 Lumens',
     brand: 'Blue Carbon',
     category: 'Solar Flood Lights',
-    price: 590000,
-    oldPrice: 700000,
+    price: null,
+    oldPrice: null,
     sku: '44809',
     stock: {
       status: 'in_stock',
@@ -232,14 +230,12 @@ export const PRODUCTS: Product[] = [
         description:
           'Apply today. Get approved. Pay consistently. Receive after 4 instalments. Clear balance slowly.',
         payments: 6,
-        amountPerPayment: 98333,
       },
       {
         name: 'DC Power UG Smart Instalments – 10 payments',
         description:
           'Apply today. Get approved. Pay consistently. Receive after 7 instalments. Clear balance slowly.',
         payments: 10,
-        amountPerPayment: 59000,
       },
       {
         name: 'DC Power UG Save',
@@ -258,8 +254,7 @@ export const PRODUCTS: Product[] = [
     name: 'Jinko 725W Tiger Neo N-Type TOPCon Bifacial Dual Glass Solar Panel JKM725N-66HL5-BDV',
     brand: 'Jinko Solar',
     category: 'Solar Panels & Lighting',
-    // Price was not provided in the supplied product data.
-    price: 470000,
+    price: null,
     stock: {
       status: 'in_stock',
     },
@@ -348,8 +343,8 @@ export const PRODUCTS: Product[] = [
     name: 'Jinko 620Wp N-Type Solar Panel JKM620N-66HL4M-(V), TOPCon, 1500V System',
     brand: 'Jinko Solar',
     category: 'Solar Panels & Lighting',
-    price: 440000,
-    oldPrice: 550000,
+    price: null,
+    oldPrice: null,
     sku: '55191',
     stock: {
       status: 'in_stock',
@@ -419,21 +414,18 @@ export const PRODUCTS: Product[] = [
         name: 'DC Power UG Advance',
         description:
           'Apply today. Get approved. Pay deposit. Receive in 2-7 days. Clear balance slowly.',
-        amountPerPayment: 307300,
       },
       {
         name: 'DC Power UG Smart Instalments – 6 payments',
         description:
           'Apply today. Get approved. Pay consistently. Receive after 4 instalments. Clear balance slowly.',
         payments: 6,
-        amountPerPayment: 73167,
       },
       {
         name: 'DC Power UG Smart Instalments – 10 payments',
         description:
           'Apply today. Get approved. Pay consistently. Receive after 7 instalments. Clear balance slowly.',
         payments: 10,
-        amountPerPayment: 43900,
       },
       {
         name: 'DC Power UG Save',
@@ -451,8 +443,8 @@ export const PRODUCTS: Product[] = [
     name: 'Jinko 585W Monocrystalline Solar Panel, N-Type TOPCon Half-Cell, 1500V System',
     brand: 'Jinko Solar',
     category: 'Solar Panels & Lighting',
-    price: 410000,
-    oldPrice: 429000,
+    price: null,
+    oldPrice: null,
     sku: '49520',
     stock: {
       status: 'in_stock',
@@ -515,8 +507,8 @@ export const PRODUCTS: Product[] = [
     name: 'Jinko Solar 590-Watt Monocrystalline Solar Panel JKM590N-78HL4-BDV, 1500VDC',
     brand: 'Jinko Solar',
     category: 'Solar Panels & Lighting',
-    price: 415000,
-    oldPrice: 420000,
+    price: null,
+    oldPrice: null,
     sku: '45002',
     stock: {
       status: 'in_stock',
@@ -597,14 +589,12 @@ export const PRODUCTS: Product[] = [
         description:
           'Apply today. Get approved. Pay consistently. Receive after 4 instalments. Clear balance slowly.',
         payments: 6,
-        amountPerPayment: 66500,
       },
       {
         name: 'DC Power UG Smart Instalments – 10 payments',
         description:
           'Apply today. Get approved. Pay consistently. Receive after 7 instalments. Clear balance slowly.',
         payments: 10,
-        amountPerPayment: 39900,
       },
       {
         name: 'DC Power UG Save',
@@ -622,8 +612,8 @@ export const PRODUCTS: Product[] = [
     name: 'IET 550-Watt Monocrystalline Solar Panel IE-7M144-HC, 1000/1500VDC',
     brand: 'IET',
     category: 'Solar Panels & Lighting',
-    price: 400000,
-    oldPrice: 550000,
+    price: null,
+    oldPrice: null,
     sku: '39030',
     stock: {
       status: 'in_stock',
@@ -715,8 +705,8 @@ export const PRODUCTS: Product[] = [
     name: 'Jinko 490Wp N-Type Solar Panel JKM490N-60HL4-(V), TOPCon, 1500V System',
     brand: 'Jinko Solar',
     category: 'Solar Panels & Lighting',
-    price: 350000,
-    oldPrice: 450000,
+    price: null,
+    oldPrice: null,
     sku: '47584',
     stock: {
       status: 'in_stock',
@@ -780,8 +770,8 @@ export const PRODUCTS: Product[] = [
     name: 'Chloride 200W 12V Monocrystalline Solar Panel SP200CE',
     brand: 'Chloride Solar',
     category: 'Solar Panels & Lighting',
-    price: 260000,
-    oldPrice: 290000,
+    price: null,
+    oldPrice: null,
     sku: '45303',
     stock: {
       status: 'in_stock',
@@ -826,8 +816,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 500Ah 51.2V 25kWh Lithium Solar Battery FLA48500',
     brand: 'Felicity Solar',
     category: 'Batteries & Energy Storage',
-    price: 12900000,
-    oldPrice: 16000000,
+    price: null,
+    oldPrice: null,
     sku: '45277',
 
     stock: {
@@ -908,21 +898,18 @@ export const PRODUCTS: Product[] = [
         name: 'DC Power UG Advance',
         description:
           'Apply today. Get approved. Pay deposit. Receive in 2–7 days. Clear balance slowly.',
-        amountPerPayment: 9030000,
       },
       {
         name: 'DC Power UG Smart Instalments – 6 payments',
         description:
           'Apply today. Get approved. Pay consistently. Receive after 4 instalments. Clear balance slowly.',
         payments: 6,
-        amountPerPayment: 2150000,
       },
       {
         name: 'DC Power UG Smart Instalments – 10 payments',
         description:
           'Apply today. Get approved. Pay consistently. Receive after 7 instalments. Clear balance slowly.',
         payments: 10,
-        amountPerPayment: 1290000,
       },
       {
         name: 'DC Power UG Save',
@@ -942,8 +929,8 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon 1600-Lumen Outdoor Solar LED Floodlight',
     brand: 'Blue Carbon',
     category: 'Solar Flood Lights',
-    price: 2000000,
-    oldPrice: 2500000,
+    price: null,
+    oldPrice: null,
     sku: 'SO885LB3K5FY3NAFAMZ',
 
     stock: {
@@ -1019,8 +1006,8 @@ export const PRODUCTS: Product[] = [
     name: 'ALL TOP 3000W Super Strong Integrated Solar Street Light – 20 LED Bulbs',
     brand: 'ALL TOP',
     category: 'Solar Street Lights',
-    price: 477000,
-    oldPrice: 888000,
+    price: null,
+    oldPrice: null,
     sku: 'GE779LB4I6KCQNAFAMZ',
     stock: { status: 'in_stock' },
     featured: false,
@@ -1351,8 +1338,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 200Ah 24V 5kWh Lithium Solar Battery FLA24200; Built-in BMS & WiFi, ≥6,000 Cycles, @25°C, 80% DoD, Parallel Up To 75kWh Or 15 Units In Uganda',
     brand: 'Felicity',
     category: 'Batteries & Energy Storage',
-    price: 3490000,
-    oldPrice: 4700000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -1387,8 +1374,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 100AH 48V 5kWh Lithium Solar Battery FLA48100; Built-in BMS, Over 6,000 Charge Cycles @25°C, 80% DoD, Long Lifespan, Fast Charging In Uganda',
     brand: 'Felicity',
     category: 'Batteries & Energy Storage',
-    price: 3490000,
-    oldPrice: 4700000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -1423,7 +1410,7 @@ export const PRODUCTS: Product[] = [
     name: 'DC Power UG Energy 1.8kWp-5kWh-4kVA Complete Smart Hybrid Solar Power System; 6-8kWh Daily Yield, WiFi App Monitoring, Automatic Switchover In Uganda',
     brand: 'DC Power UG Energy',
     category: 'Complete Solar Systems & Kits',
-    price: 8200000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -1454,8 +1441,8 @@ export const PRODUCTS: Product[] = [
     name: 'DC Power UG Energy 900Wp-2.56kWh-1.5kVA Complete Hybrid Solar Power System; 3.5-4.5kWh Daily Yield, Automatic Switchover In Uganda',
     brand: 'DC Power UG Energy',
     category: 'Complete Solar Systems & Kits',
-    price: 5690000,
-    oldPrice: 6400000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -1486,8 +1473,8 @@ export const PRODUCTS: Product[] = [
     name: 'DC Power UG Energy 600Wp-2.56kWh-1kW Complete Hybrid Solar Power System; 2.2-3kWh Daily PV Yield, Long-Life Lithium Battery, Automatic Switchover In Uganda',
     brand: 'DC Power UG Energy',
     category: 'Complete Solar Systems & Kits',
-    price: 4490000,
-    oldPrice: 5300000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -1520,8 +1507,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 5kW/5.12kWh Lithium All-in-One Backup Power System EOT05S; Charge By Grid, Generator & Solar Up To 5500Wp In Uganda',
     brand: 'SRNE',
     category: 'Complete Solar Systems & Kits',
-    price: 5490000,
-    oldPrice: 6200000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -1553,7 +1540,7 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 50kVA/50kW 3-Phase High Voltage Hybrid Solar Inverter T-REX-50KHP3G01; 75kWp PV Input, 180-750V Battery Range, Dual MPPT, IP65, Smart Energy Management, Remote Monitoring Via Wi-Fi In Uganda',
     brand: 'Felicity',
     category: 'Commercial & Industrial Solar',
-    price: 15800000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -1590,8 +1577,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 61.44kWh High Voltage Lithium Battery System LUX-Y-48100HG01; 12 × 5.12kWh (48V 100Ah) Modules, 90% DoD, 6000+ Cycles, Built-in BMS, Stack-Mount, Scalable In Uganda',
     brand: 'Felicity',
     category: 'Commercial & Industrial Solar',
-    price: 39000000,
-    oldPrice: 45000000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -1626,7 +1613,7 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 12kW 48V 3-Phase Hybrid Solar Inverter IVGM12KLP3G1; 18kW PV, 800V Voc, 160-650V MPPT, 2 MPPT, 240A, IP65, WiFi, Gen In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 8000000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -1657,7 +1644,7 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 12kW 48V Single Phase Hybrid Solar Inverter IVEM12048-II; 15kW PV, 500V Voc, 90-450V MPPT, 2 PV Inputs, 240A Charge, WiFi, Gen In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 3490000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -1688,8 +1675,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 750VA/0.6kW 12V Pure Sine Wave Inverter IVPS0712; Bypass Charging, AC Charging In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 749000,
-    oldPrice: 869000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -1720,8 +1707,8 @@ export const PRODUCTS: Product[] = [
     name: 'Genuine Felicity 80A 48V MPPT Solar Charge Controller SCCM8048-II; 145V/80A, Up To 4400Wpv @ 48V, 2200Wpv @24V, 1100Wpv @12V In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 749000,
-    oldPrice: 949000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -1754,8 +1741,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 60A MPPT Solar Charge Controller SCCM6048-II; 145V/60A, Up To 3300Wpv @ 48V, 1650Wpv @24V, 825Wpv @12V In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 649000,
-    oldPrice: 829000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -1788,8 +1775,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 45A MPPT Solar Charge Controller SCCM4524-II; 95V/45A, Up To 1250Wpv @24V, 625Wpv @12V In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 490000,
-    oldPrice: 569000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -1821,8 +1808,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 30A MPPT Solar Charge Controller SCCM3024-II; 95V/30A, Up To 830Wpv @24V, 420Wpv @12V In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 349000,
-    oldPrice: 350000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -1855,8 +1842,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 1kVA/1kW 12V Hybrid Inverter IVCM1012; Built-in 60A MPPT Solar Charge Controller 900Wp/95Voc/15-80V, Pure Sine Wave Output In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 890000,
-    oldPrice: 1200000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -1891,8 +1878,8 @@ export const PRODUCTS: Product[] = [
     name: 'Genuine Felicity 1500VA 12V, 220VAC Pure Sine Wave Inverter IVPS1512; 1.2kW Load, 50/60Hz, 18A Max Charge, Overload & Short Circuit Protection In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 799000,
-    oldPrice: 900000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -1927,7 +1914,7 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 100A 48V MPPT Solar Charge Controller SCCM10048; 195V/100A, Up To 5,500Wpv @ 48V, 2750Wpv @24V, 1375Wpv @12V In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 1000000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -1960,7 +1947,7 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity Solar 2kW/2kVA 24V Hybrid Solar Inverter IVCM2024 PRO; Built-in MPPT Solar Charge Controller, 230Vac Output, 90-280Vac Input, LCD Display, Generator Compatible In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 970000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -1994,8 +1981,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 6kVA/6kW 48V Hybrid Inverter IVEM6048-II; 7.5kWp/500Voc/90–450VDC/120A Built-in MPPT Charge Controller, Battery Charger, 230Vac Pure Sine Wave Output, Built-in WiFi In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 1990000,
-    oldPrice: 2490000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2030,8 +2017,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 100AH 48V 5kWh Lithium Solar Battery FLA48100; Built-in BMS, Over 6,000 Charge Cycles @25°C, 80% DoD, Long Lifespan, Fast Charging In Uganda',
     brand: 'Felicity',
     category: 'Batteries & Energy Storage',
-    price: 3490000,
-    oldPrice: 4700000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2066,8 +2053,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 200Ah 24V 5kWh Lithium Solar Battery FLA24200; Built-in BMS & WiFi, ≥6,000 Cycles, @25°C, 80% DoD, Parallel Up To 75kWh Or 15 Units In Uganda',
     brand: 'Felicity',
     category: 'Batteries & Energy Storage',
-    price: 3490000,
-    oldPrice: 4700000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2102,8 +2089,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity T-REX 10kVA/10kW 48V 3-Phase Hybrid Solar Inverter T-REX-10KLP3G01; Built-in Dual MPPT 13000W Solar Charge Controller, 200–850V MPPT Range, 900V Voc, Pure Sine Wave Output, Wi-Fi Monitoring, IP65 In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 5900000,
-    oldPrice: 7000000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2140,8 +2127,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 200Ah 51.2V 10kWh Lithium Solar Battery FLA48200; Built-in BMS & WiFi, ≥6,000 Cycles @25°C, 80% DoD, Parallel Up To 150kWh Or 15 Units In Uganda',
     brand: 'Felicity',
     category: 'Batteries & Energy Storage',
-    price: 6390000,
-    oldPrice: 7000000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2176,8 +2163,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 200Ah 51.2V 10kWh Lithium Solar Battery FLA48200; Built-in BMS & WiFi, ≥6,000 Cycles @25°C, 80% DoD, Parallel Up To 150kWh Or 15 Units In Uganda',
     brand: 'Felicity',
     category: 'Batteries & Energy Storage',
-    price: 6390000,
-    oldPrice: 7000000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2212,7 +2199,7 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 8kW 48V Single Phase Hybrid Solar Inverter IVEM8048-II; 10kWp PV, 500V Voc, 90-450V MPPT, 2 PV Inputs, 150A Charge, WiFi, Gen In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 3500000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -2245,8 +2232,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 15kWh 51.2V Lithium Battery FLA48300TG2; LiFePO4, 300Ah, 95% DoD, 6000 Cycles, Smart BMS, WiFi/BT, 15-Unit Parallel In Uganda',
     brand: 'Felicity',
     category: 'Batteries & Energy Storage',
-    price: 8490000,
-    oldPrice: 9200000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2281,8 +2268,8 @@ export const PRODUCTS: Product[] = [
     name: 'Deye SE-G5.1 5.12kWh 51.2V LiFePO4 Lithium Solar Battery; Rack-Mounted, Built-in Intelligent BMS, 100Ah, 50A Charge/Discharge, IP20, CAN/RS485, Stackable Up To 64 Units (327.68kWh) In Uganda',
     brand: 'Deye',
     category: 'Batteries & Energy Storage',
-    price: 3290000,
-    oldPrice: 4190000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2316,7 +2303,7 @@ export const PRODUCTS: Product[] = [
     name: 'Deye 3kVA/3kW 24V Single Phase Hybrid Inverter SUN-3K-SG04LP1-24-EU; 1 MPPT, 6kWp/4.8kWp PV Access/Input, 500Vdc, 150–425V MPPT Range, 140A Charge/Discharge, WiFi/4G Monitoring, IP65 In Uganda',
     brand: 'Deye',
     category: 'Inverters, Chargers & MPPTs',
-    price: 3200000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -2350,8 +2337,8 @@ export const PRODUCTS: Product[] = [
     name: 'Deye 5.12kWh 51.2V LiFePO4 Lithium Solar Battery RW-L5.1; Built-in BMS, 100Ah, 100/120A Charge/Discharge, IP65, CAN/RS485, Wall-Mounted, Scalable Up To 32 Units (163.84kWh) In Uganda',
     brand: 'Deye',
     category: 'Batteries & Energy Storage',
-    price: 4490000,
-    oldPrice: 4900000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2385,8 +2372,8 @@ export const PRODUCTS: Product[] = [
     name: 'Deye 5kVA/5kW 48V Single Phase Hybrid Inverter SUN-5K-SG04LP1-EU; 2 MPPT, 10kWp/8kWp PV Access/Input, 500Vdc, 150–425V MPPT Range, 120A Charge/Discharge, WiFi/4G Monitoring, IP65 In Uganda',
     brand: 'Deye',
     category: 'Inverters, Chargers & MPPTs',
-    price: 3690000,
-    oldPrice: 4500000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2421,8 +2408,8 @@ export const PRODUCTS: Product[] = [
     name: 'Deye 8kVA/8kW 48V Single Phase Hybrid Inverter SUN-8K-SG01LP1-EU; 2 MPPT, 16kWp PV Access, 500Vdc, 150–425V MPPT Range, 190A Charge/Discharge, WiFi/4G Monitoring, IP65 In Uganda',
     brand: 'Deye',
     category: 'Inverters, Chargers & MPPTs',
-    price: 5490000,
-    oldPrice: 6800000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2457,8 +2444,8 @@ export const PRODUCTS: Product[] = [
     name: 'Deye 12kVA/12kW 48V Single Phase Hybrid Inverter SUN-12K-SG01LP1-EU; 24/19.2kWp PV Access/Input, 500Vdc, 150–425V MPPT Range, 240A Charge/Discharge, WiFi/4G Monitoring, IP65 In Uganda',
     brand: 'Deye',
     category: 'Inverters, Chargers & MPPTs',
-    price: 8290000,
-    oldPrice: 8900000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2493,8 +2480,8 @@ export const PRODUCTS: Product[] = [
     name: 'Deye 16kVA/16kW 48V Single Phase Hybrid Inverter SUN-16K-SG01LP1-EU-AM3-P; 3 MPPT, 32kWp/25.6kWp PV Access/Input, 500Vdc, 150–425V MPPT Range, 290A Charge/Discharge, Dual Battery Input, WiFi/4G Monitoring, IP65 In Uganda',
     brand: 'Deye',
     category: 'Inverters, Chargers & MPPTs',
-    price: 10490000,
-    oldPrice: 11290000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2529,8 +2516,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 16.07kWh 51.2V Lithium Battery SE16B-Pro; LiFePO4, 314Ah, 80% DoD, 6000 Cycles, Built-in BMS, Parallel Up To 16 Units In Uganda',
     brand: 'SRNE',
     category: 'Batteries & Energy Storage',
-    price: 8990000,
-    oldPrice: 9800000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2581,8 +2568,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 14.33kWh 51.2V Lithium Battery SR-SE15B; LiFePO4, 280Ah, 90% DoD, 6000 Cycles, CAN/RS485, Parallel Up To 16 Units In Uganda',
     brand: 'SRNE',
     category: 'Batteries & Energy Storage',
-    price: 8290000,
-    oldPrice: 8900000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2633,8 +2620,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 10.49kWh 51.2V Lithium Battery SE10B; LiFePO4, 205Ah, 80% DoD, 6000 Cycles, Built-in BMS, Parallel Up To 16 Units In Uganda',
     brand: 'SRNE',
     category: 'Batteries & Energy Storage',
-    price: 6490000,
-    oldPrice: 7200000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2683,8 +2670,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 12kVA/12kW 3-Phase Hybrid Solar Inverter ASF48120SH3; Supports Up To 18kWp PV, 48V Battery, 230/400V AC Output, Dual MPPT, 800V Voc, 200–650V MPPT Range, 260A Hybrid Charging, Pure Sine Wave Output In Uganda',
     brand: 'SRNE',
     category: 'Inverters, Chargers & MPPTs',
-    price: 6490000,
-    oldPrice: 7500000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2719,8 +2706,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 5.12kWh 51.2V Lithium Battery SE05B; LiFePO4, 100Ah, 80% DoD, 6000 Cycles, Built-in BMS, Parallel Up To 16 Units In Uganda',
     brand: 'SRNE',
     category: 'Batteries & Energy Storage',
-    price: 3900000,
-    oldPrice: 4500000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2769,8 +2756,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 5kW/5.12kWh Lithium All-in-One Backup Power System EOT05S; Charge By Grid, Generator & Solar Up To 5500Wp In Uganda',
     brand: 'SRNE',
     category: 'Complete Solar Systems & Kits',
-    price: 5490000,
-    oldPrice: 6200000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2802,8 +2789,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 5.12kWh 51.2V Rack Lithium Battery EOC05B-UL; LiFePO4, 100Ah, 80% DoD, 6000 Cycles, Built-in BMS, Parallel Up To 16 Units In Uganda',
     brand: 'SRNE',
     category: 'Batteries & Energy Storage',
-    price: 3900000,
-    oldPrice: 4500000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2839,8 +2826,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 6kW 48V Off-Grid Solar Storage Inverter AEP4860S135-H; 2 MPPT, 12000W PV, 65-450V MPPT, 500V Voc, 135A, 6-Unit Parallel, WiFi Option, IP65 In Uganda',
     brand: 'SRNE',
     category: 'Inverters, Chargers & MPPTs',
-    price: 2490000,
-    oldPrice: 3000000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2890,8 +2877,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 2.56kWh 25.6V Lithium Battery EOS02B-24; LiFePO4, 100Ah, 80% DoD, 6000 Cycles, Built-in BMS, Parallel Up To 4 Units In Uganda',
     brand: 'SRNE',
     category: 'Batteries & Energy Storage',
-    price: 2390000,
-    oldPrice: 2900000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2940,8 +2927,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 6.2kW 48V Hybrid Solar Inverter HYP4860S100-H; 2 MPPT, 9000W PV, 120-480V MPPT, 550V Voc, 100A, 6-Unit Parallel, WiFi/GPRS, IP20 In Uganda',
     brand: 'SRNE',
     category: 'Inverters, Chargers & MPPTs',
-    price: 2390000,
-    oldPrice: 2800000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -2992,8 +2979,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 2.56kWh 12.8V Lithium Battery EOS02B-12; LiFePO4, 200Ah, 80% DoD, 6000 Cycles, Built-in BMS, Parallel Up To 4 Units In Uganda',
     brand: 'SRNE',
     category: 'Batteries & Energy Storage',
-    price: 2190000,
-    oldPrice: 2500000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -3042,8 +3029,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 5kW 48V Single-Phase Off-Grid Inverter AFP4850S100-H; 1 MPPT, 7500W PV, 60-450V MPPT, 500V Voc, 100A, 6-Unit Parallel, IP20 In Uganda',
     brand: 'SRNE',
     category: 'Inverters, Chargers & MPPTs',
-    price: 1890000,
-    oldPrice: 2100000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -3077,8 +3064,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 3.3kW 24V Hybrid Solar Inverter HF2430S80-H; 4kWp/500Voc/120-500VDC/80A MPPT Charge Controller, 230Vac Pure Sine Wave Output, WiFi Optional In Uganda',
     brand: 'SRNE',
     category: 'Inverters, Chargers & MPPTs',
-    price: 1690000,
-    oldPrice: 1900000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -3125,8 +3112,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 3kVA/3kW 24V Hybrid Inverter HF2430S60-100; Built-in 60A MPPT Solar Charge Controller 1400Wp/100Voc/30-95V, Pure Sine Wave Output In Uganda',
     brand: 'SRNE',
     category: 'Inverters, Chargers & MPPTs',
-    price: 1390000,
-    oldPrice: 1690000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -3171,8 +3158,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 1.5kVA/1.5kW 12V Hybrid Solar Inverter HF1215S60-108; Built-in 60A MPPT Solar Charge Controller 1000Wp/108Voc/15–90V, Pure Sine Wave Output In Uganda',
     brand: 'SRNE',
     category: 'Inverters, Chargers & MPPTs',
-    price: 900000,
-    oldPrice: 1200000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -3222,8 +3209,8 @@ export const PRODUCTS: Product[] = [
     name: 'Dyness 5.12kWh 51.2V Lithium Solar Battery DL5.0C; 100Ah, 50A Recommended, 100A Max Discharge, 6000+ Cycles, Scalable To 256kWh In Uganda',
     brand: 'Dyness',
     category: 'Batteries & Energy Storage',
-    price: 3490000,
-    oldPrice: 4200000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -3270,8 +3257,8 @@ export const PRODUCTS: Product[] = [
     name: 'Dyness 2.56kWh 25.6V LiFePO4 Lithium Solar Battery DL2.5 C; 100Ah, Built-in BMS, 50A Recommended Charge/Discharge, 130A Max Discharge, CAN/RS485, Optional WiFi, IP20, Stackable Up To 16 Units (40.96kWh) In Uganda',
     brand: 'Dyness',
     category: 'Batteries & Energy Storage',
-    price: 1890000,
-    oldPrice: 2290000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -3322,8 +3309,8 @@ export const PRODUCTS: Product[] = [
     name: 'Dyness STACK100 5.12kWh 51.2V LiFePO4 High-Voltage Lithium Battery Module; 100Ah, 1C Charge/Discharge, CAN/RS485, Cable-Free Stackable Design, Scalable To 921.6kWh, 10-Year Warranty In Uganda',
     brand: 'Dyness',
     category: 'Commercial & Industrial Solar',
-    price: 3990000,
-    oldPrice: 4500000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -3378,8 +3365,8 @@ export const PRODUCTS: Product[] = [
     name: 'Dyness PowerBrick Max 16kWh 51.2V Lithium Battery; LiFePO4, 314Ah, 95% DOD, 8000+ Cycles, Built-in BMS, Optional WiFi, Scalable Up To 50 Units In Uganda',
     brand: 'Dyness',
     category: 'Batteries & Energy Storage',
-    price: 8490000,
-    oldPrice: 9000000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -3414,8 +3401,8 @@ export const PRODUCTS: Product[] = [
     name: 'Dyness STACK100 15.36kWh 153.6V LiFePO4 High-Voltage Lithium Battery System; 100Ah, 1C Charge/Discharge, CAN/RS485, Cable-Free Stackable Design, Built-in Aerosol Fire Extinguisher, 10-Year Warranty In Uganda',
     brand: 'Dyness',
     category: 'Commercial & Industrial Solar',
-    price: 11900000,
-    oldPrice: 13500000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -3470,8 +3457,8 @@ export const PRODUCTS: Product[] = [
     name: 'Dyness STACK100 61.44kWh 614.4V LiFePO4 High-Voltage Lithium Battery System; 100Ah, 1C Charge/Discharge, CAN/RS485, Cable-Free Stackable Design, Built-in Aerosol Fire Extinguisher, 10-Year Warranty In Uganda',
     brand: 'Dyness',
     category: 'Commercial & Industrial Solar',
-    price: 46900000,
-    oldPrice: 51000000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -3525,8 +3512,8 @@ export const PRODUCTS: Product[] = [
     name: 'Dyness STACK100 76.8kWh 768V LiFePO4 High-Voltage Lithium Battery System; 100Ah, 1C Charge/Discharge, CAN/RS485, Cable-Free Stackable Design, Built-in Aerosol Fire Extinguisher, 10-Year Warranty In Uganda',
     brand: 'Dyness',
     category: 'Commercial & Industrial Solar',
-    price: 56900000,
-    oldPrice: 63000000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -3581,8 +3568,8 @@ export const PRODUCTS: Product[] = [
     name: 'Dyness STACK100 921.6kWh Industrial LiFePO4 High-Voltage Lithium Battery System; 100Ah, 12 Clusters In Parallel, 1C Charge/Discharge, CAN/RS485, Cable-Free Stackable Design, Built-in Aerosol Fire Extinguisher, 10-Year Warranty In Uganda',
     brand: 'Dyness',
     category: 'Commercial & Industrial Solar',
-    price: 669000000,
-    oldPrice: 750000000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -3636,8 +3623,8 @@ export const PRODUCTS: Product[] = [
     name: 'Dyness STACK100 230.4kWh Industrial High-Voltage LiFePO4 Lithium Battery System; 100Ah, 3 Clusters In Parallel, 1C Charge/Discharge, CAN/RS485, Cable-Free Stackable Design, Built-in Aerosol Fire Extinguisher, 10-Year Warranty In Uganda',
     brand: 'Dyness',
     category: 'Commercial & Industrial Solar',
-    price: 169900000,
-    oldPrice: 200000000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -3691,7 +3678,7 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon - Blue Carbon All In One Solar Power Street Light 100W Solar Lamp Integrated Led Solar Street Light 8-10m - bluecarbontech.com',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 650000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -3729,7 +3716,7 @@ export const PRODUCTS: Product[] = [
     name: '24V Municipal Street Light (BCT-OLM-B) - Blue Carbon Solar Lights',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 550000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -3761,7 +3748,7 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon Mini Simplify Light Outdoor 5m 20W Solar Street Light System Low Price - Solar Light, Solar LED Street Light | Made-in-China.com',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 850000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -3798,7 +3785,7 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon Wawa Light 3.0 | Blue Carbon Nigeria',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 250000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -3823,7 +3810,7 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon 300W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com',
     brand: 'Blue Carbon',
     category: 'Solar Flood Lights',
-    price: 280000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -3860,7 +3847,7 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon 400W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com',
     brand: 'Blue Carbon',
     category: 'Solar Flood Lights',
-    price: 420000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -3897,7 +3884,7 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon 500W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com',
     brand: 'Blue Carbon',
     category: 'Solar Flood Lights',
-    price: 500000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -3934,7 +3921,7 @@ export const PRODUCTS: Product[] = [
     name: 'Shop BCT-King 2.0B solar street Light',
     brand: 'Unknown',
     category: 'Solar Street Lights',
-    price: 650000,
+    price: null,
     stock: {
       status: 'in_stock',
     },
@@ -3968,7 +3955,7 @@ export const PRODUCTS: Product[] = [
     name: 'Customized Blue Carbon - Street Light Solar Street Light Manufacturers From China | Blue Carbon - bluecarbontech.com',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 950000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -4006,7 +3993,7 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon Factory Solar Street Light 50W Power LED Street Light Outdoor Price for Sale - LED, Solar | Made-in-China.com',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 750000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -4043,7 +4030,7 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon All-In-One Solar Power Street Light 140W | Blue Carbon Nigeria',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 600000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -4079,7 +4066,7 @@ export const PRODUCTS: Product[] = [
     name: 'China Blue Carbon Factory Direct Outdoor All in One Solar Street Light LED Lamp Smart Remote Control Manufacturers Suppliers Factory',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 450000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -4117,7 +4104,7 @@ export const PRODUCTS: Product[] = [
     name: '50 Watt LED Street Light at ₹ 3000/piece | LED Street Light in Hapur | ID: 14111746848',
     brand: 'Unknown',
     category: 'Solar Street Lights',
-    price: 850000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -4151,8 +4138,8 @@ export const PRODUCTS: Product[] = [
     name: 'Alltop 2000W Solar LED Street Light - 6V 20W Polycrystalline Panel, LiFePO4 15AH Battery, 160 lm/W, 5-7m Mount With 1 Year Warranty - Nabellas Stores',
     brand: 'Alltop',
     category: 'Solar Street Lights',
-    price: 255000,
-    oldPrice: 489000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -4185,8 +4172,8 @@ export const PRODUCTS: Product[] = [
     name: 'Alltop 3000W Solar LED Street Light All-in-One Outdoor Solar Lamp with Automatic Dusk-to-Dawn Sensor - Fairprice Mall',
     brand: 'Alltop',
     category: 'Solar Street Lights',
-    price: 355000,
-    oldPrice: 490000,
+    price: null,
+    oldPrice: null,
     stock: {
       status: 'in_stock',
     },
@@ -4224,7 +4211,7 @@ export const PRODUCTS: Product[] = [
     name: 'Alltop 200W Solar LED Street Light – Outdoor Solar Lamp 15W Polycrystalline Panel, LiFePO4 Battery - Fairprice Mall',
     brand: 'Alltop',
     category: 'Solar Street Lights',
-    price: 220000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -4257,7 +4244,7 @@ export const PRODUCTS: Product[] = [
     name: 'Alltop 1000W Solar LED Street Light – Outdoor Solar Lamp with 6V 15W Polycrystalline Panel - Fairprice Mall',
     brand: 'Alltop',
     category: 'Solar Street Lights',
-    price: 200000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -4295,7 +4282,7 @@ export const PRODUCTS: Product[] = [
     name: 'ALLTOP 300W Solar LED Flood Light with Solar Panel & Remote Control – Dusk-to-Dawn Outdoor Security Light - Fairprice Mall',
     brand: 'Alltop',
     category: 'Solar Flood Lights',
-    price: 270000,
+    price: null,
     stock: {
       status: 'pre_order',
     },
@@ -4333,8 +4320,8 @@ export const PRODUCTS: Product[] = [
     name: 'Lento 42AH 12V 504Wh Deep Cycle Sealed Maintenance-free VRLA Battery, Made in India',
     brand: 'Lento',
     category: 'Batteries & Energy Storage',
-    price: 359000,
-    oldPrice: 490000,
+    price: null,
+    oldPrice: null,
     sku: '30293',
     stock: {
       status: 'in_stock',
@@ -4378,8 +4365,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 200Ah 24V 5kWh Lithium Solar Battery FLA24200',
     brand: 'Felicity Solar',
     category: 'Batteries & Energy Storage',
-    price: 3290000,
-    oldPrice: 4700000,
+    price: null,
+    oldPrice: null,
     sku: '45678',
     stock: {
       status: 'in_stock',
@@ -4439,8 +4426,8 @@ export const PRODUCTS: Product[] = [
     name: 'Dyness PowerBrick Max 16kWh 51.2V Lithium Battery',
     brand: 'Dyness',
     category: 'Batteries & Energy Storage',
-    price: 8790000,
-    oldPrice: 9900000,
+    price: null,
+    oldPrice: null,
     sku: '50789',
     stock: {
       status: 'in_stock',
@@ -4495,8 +4482,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 14.33kWh 51.2V Lithium Battery SR-SE15B',
     brand: 'SRNE',
     category: 'Batteries & Energy Storage',
-    price: 8290000,
-    oldPrice: 8900000,
+    price: null,
+    oldPrice: null,
     sku: '53529',
     stock: {
       status: 'in_stock',
@@ -4546,8 +4533,8 @@ export const PRODUCTS: Product[] = [
     name: 'Dyness PowerBox Pro 10.24kWh 51.2V LiFePO4 Lithium Solar Battery',
     brand: 'Dyness',
     category: 'Batteries & Energy Storage',
-    price: 6990000,
-    oldPrice: 7990000,
+    price: null,
+    oldPrice: null,
     sku: '61998',
     stock: {
       status: 'in_stock',
@@ -4597,8 +4584,8 @@ export const PRODUCTS: Product[] = [
     name: 'SRNE 5.12kWh 51.2V Rack Lithium Battery EOC05B-UL',
     brand: 'SRNE',
     category: 'Batteries & Energy Storage',
-    price: 3900000,
-    oldPrice: 4500000,
+    price: null,
+    oldPrice: null,
     sku: '53778',
     stock: {
       status: 'in_stock',
@@ -4648,8 +4635,8 @@ export const PRODUCTS: Product[] = [
     name: 'Dyness DL5.0F 5.12kWh 51.2V LiFePO4 Lithium Solar Battery',
     brand: 'Dyness',
     category: 'Batteries & Energy Storage',
-    price: 3590000,
-    oldPrice: 4090000,
+    price: null,
+    oldPrice: null,
     sku: '62024',
     stock: {
       status: 'in_stock',
@@ -4701,8 +4688,8 @@ export const PRODUCTS: Product[] = [
     name: 'Dyness 2.56kWh 25.6V LiFePO4 Lithium Solar Battery DL2.5 C',
     brand: 'Dyness',
     category: 'Batteries & Energy Storage',
-    price: 2190000,
-    oldPrice: 2590000,
+    price: null,
+    oldPrice: null,
     sku: '48040',
     stock: {
       status: 'in_stock',
@@ -4751,8 +4738,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 200Ah 12V Deep-Cycle Gel Solar Battery G12V200AH',
     brand: 'Felicity Solar',
     category: 'Batteries & Energy Storage',
-    price: 899000,
-    oldPrice: 1190000,
+    price: null,
+    oldPrice: null,
     sku: '61617',
     stock: {
       status: 'in_stock',
@@ -4791,8 +4778,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 150Ah 12V Deep-Cycle Gel Solar Battery G12V150AH',
     brand: 'Felicity Solar',
     category: 'Batteries & Energy Storage',
-    price: 749000,
-    oldPrice: 900000,
+    price: null,
+    oldPrice: null,
     sku: '61616',
     stock: {
       status: 'in_stock',
@@ -4831,8 +4818,8 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 100Ah 12V Deep-Cycle Gel Solar Battery G12V100AH',
     brand: 'Felicity Solar',
     category: 'Batteries & Energy Storage',
-    price: 529000,
-    oldPrice: 690000,
+    price: null,
+    oldPrice: null,
     sku: '61615',
     stock: {
       status: 'in_stock',
